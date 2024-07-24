@@ -82,27 +82,41 @@ h2 {
 
 .pluses {
     background-color: #f5f5f5;
-    padding: 30px 50px;
 
 }
 .pluses h2 {
     padding-top: 20px;
 }
-.pluses ul {
+.pluses_content {
+    padding-bottom: 30px;
+    padding-top: 30px;
     font-size: 16px;
     line-height: 24px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-.pluses li {
-    background: url(img/plus.png) no-repeat 0 7px;
-    padding-left: 40px;
-    margin: 8px;
-    max-width: 526px;
-    list-style-type: none;
+.pluses_img {
+    float:left;
+    padding-top: 5px;
 }
+.pluses_block {
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 40px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    max-width: 580px;
+    justify-content: space-between;
+}
+
+.pluses_text{
+    max-width: 500px;
+    padding-left: 40px;
+    margin-left: 10px;
+    display: block;
+}
+
 .screen {
     background-color: #ffffff;
     padding: 50px;
@@ -256,9 +270,15 @@ h2 {
     border-radius: 5px;
 }
 .pizdec {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 140px;
+    height: 40px;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
     text-transform: uppercase;
-    width: 145px;
-    height: 45px;
 }
 .contacts_social {
     max-width: 330px;
